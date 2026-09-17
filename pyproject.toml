@@ -1,0 +1,22 @@
+[project]
+name = "copper-market-intelligence"
+version = "0.1.0"
+description = "Copper Market Intelligence & Forecasting Platform (scaffold - Stage 1)"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [ { name = "", email = "" } ]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "ruff>=0.12",
+    "black>=23.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+line-length = 88
+lint.select = ["E", "F", "W", "I"]
