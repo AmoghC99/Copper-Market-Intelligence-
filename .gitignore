@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .env
 .venv/
 venv/
@@ -11,3 +12,18 @@ models/
 *.egg-info/
 .ipynb_checkpoints/
 .DS_Store
+=======
+.env
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.pyc
+data/raw/
+data/processed/
+models/
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+>>>>>>> 08f19bad2376f7959fa366be1049c98c47bebb89
