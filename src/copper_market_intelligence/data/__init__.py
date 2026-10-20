@@ -1,4 +1,8 @@
 """Data ingestion modules and canonical readers/writers.
 
-This package is intentionally empty at Stage 1; adapters will be added in later stages.
+Adapters for public data sources are implemented in separate modules.
 """
+
+from .base import BaseIngestor
+
+__all__ = ["BaseIngestor"]

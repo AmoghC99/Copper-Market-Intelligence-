@@ -1,0 +1,23 @@
+{
+  "source": "yahoo",
+  "ticker": "HG=F",
+  "source_url": "https://query1.finance.yahoo.com/v7/finance/download/HG=F?period1=0&period2=9999999999&interval=1d&events=history",
+  "retrieved_at": "2026-09-20T12:18:02.388101",
+  "checksum": "37787b66aab6444544fa8095f2187e029e9a59c25113c577a27da6f07f720ad6",
+  "raw_path": "C:/Users/achaube/copper-market-intelligence/data/raw/yahoo/yahoo_HG=F_1789903082.csv",
+  "rows": 2,
+  "columns": [
+    "Date",
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Adj Close",
+    "Volume"
+  ],
+  "earliest_date": "2023-01-01 00:00:00",
+  "latest_date": "2023-01-02 00:00:00",
+  "currency": "USD",
+  "instrument": "COMEX futures (HG=F)",
+  "notes": "Daily historical OHLC+Volume from Yahoo Finance (COMEX HG=F). Treat as convenience public market data; not LME cash price."
+}

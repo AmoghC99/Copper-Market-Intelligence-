@@ -1,0 +1,37 @@
+{
+  "sources": [
+    {
+      "name": "fred",
+      "dataset": "PPIACO", 
+      "url": "https://fred.stlouisfed.org/",
+      "frequency": "daily",
+      "units": "USD",
+      "fields": ["date", "value"],
+      "retrieval": "fred api",
+      "license": "FRED terms apply; API key required",
+      "notes": "Requires environment variable FRED_API_KEY. If unavailable, adapter will not fetch."
+    },
+    {
+      "name": "yahoo",
+      "dataset": "HG=F",
+      "url": "https://query1.finance.yahoo.com/v7/finance/download/HG=F",
+      "frequency": "daily",
+      "units": "USD per lb",
+      "fields": ["Date", "Open", "High", "Low", "Close", "Adj Close", "Volume"],
+      "retrieval": "csv download",
+      "license": "Use under Yahoo terms; public CSV endpoint",
+      "notes": "Useful continuous futures series for copper (HG=F)."
+    },
+    {
+      "name": "usgs",
+      "dataset": "copper_production",
+      "url": "https://example.com/usgs_copper_production.csv",
+      "frequency": "annual",
+      "units": "metric tonnes",
+      "fields": ["year", "production"],
+      "retrieval": "direct csv",
+      "license": "USGS public domain where applicable",
+      "notes": "Replace URL with official USGS CSV if available."
+    }
+  ]
+}

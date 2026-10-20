@@ -1,0 +1,2 @@
+model_file,horizon,n_sample,feature_mismatch
+models\xgb_h1.model,1,200,
